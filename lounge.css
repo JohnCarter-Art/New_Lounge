@@ -1,6 +1,7 @@
 body {
     font-size: small;
     font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
     }
 h1, h2 {
     color: #007e7e;
@@ -11,3 +12,26 @@ h1 {
 h2 {
     font-size: 130%;
     }
+.quarantee {
+    /*Описание параметров текста*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #444444;
+    line-height: 1.9em;
+    /*Описание параметров границы*/
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    /*Отступы внутри границы*/
+    padding: 25px;
+    /*Отступ текста с левого края*/
+    padding-left: 80px;
+    /*Поля*/
+    margin: 30px;
+    margin-right: 250px;
+    /*Фоновое изображение путь к нему и его местопложение в рамках границы*/
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}

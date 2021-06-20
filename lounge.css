@@ -1,54 +1,29 @@
 body {
-    font-size: small;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    line-height: 1.6em;
     font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
     }
-h1, h2 {
-    color: #007e7e;
-    }
-h1 {
-    font-size: 150%;
-    }
-h2 {
-    font-size: 130%;
-    }
+h1, h2 {color: #007e7e;}
+h1 {font-size: 150%;}
+h2 {font-size: 130%;}
 #quarantee {
-    /*Описание параметров текста*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: oblique #444444 Georgia, 'Times New Roman', Times, serif;
     line-height: 1.9em;
-    /*Описание параметров границы*/
     border: white 1px dashed;
     background-color: #a7cece;
-    /*Отступы внутри границы*/
     padding: 25px;
-    /*Отступ текста с левого края*/
     padding-left: 80px;
-    /*Поля*/
     margin: 30px;
     margin-right: 250px;
-    /*Фоновое изображение путь к нему и его местопложение в рамках границы*/
     background-image: url(images/background.gif) no-repeat top left;
 }
 #elixirs {
     border: thin solid #007e7e;
     width: 362px;
-    
     padding: 0px 20px 20px 20px;
-
     margin: 0px 0px 0px 20px;
-
     text-align: center;
-
     background-image: url(images/cocktail.gif) repeat-x;
-
     line-height: 1;
 }
-#elixirs h2 {
-    color: black;
-}
-#elixirs h3 {
-    color: #d12c47;
-}
-Добавлен индефикатор к элементу разделения контента, использованы сокращения в правилах
+#elixirs h2 { color: black;}
+#elixirs h3 {color: #d12c47;}

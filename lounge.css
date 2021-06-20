@@ -5,16 +5,14 @@ h1, h2 {color: #007e7e;}
 h1 {font-size: 150%;}
 h2 {font-size: 130%;}
 #quarantee {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font: oblique #444444 Georgia, 'Times New Roman', Times, serif;
     line-height: 1.9em;
     border: white 1px dashed;
-    background-color: #a7cece;
     padding: 25px;
     padding-left: 80px;
     margin: 30px;
     margin-right: 250px;
-    background-image: url(images/background.gif) no-repeat top left;
+    background: url(images/background.gif) no-repeat top left #a7cece;
 }
 #elixirs {
     border: thin solid #007e7e;
@@ -22,7 +20,7 @@ h2 {font-size: 130%;}
     padding: 0px 20px 20px 20px;
     margin: 0px 0px 0px 20px;
     text-align: center;
-    background-image: url(images/cocktail.gif) repeat-x;
+    background: url(images/cocktail.gif) repeat-x;
     line-height: 1;
 }
 #elixirs h2 { color: black;}

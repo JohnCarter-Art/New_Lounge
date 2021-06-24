@@ -1,9 +1,15 @@
 body {
     font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
-    }
-h1, h2 {color: #007e7e;}
-h1 {font-size: 150%;}
-h2 {font-size: 130%;}
+}
+h1, h2 {
+    color: #007e7e;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
 #quarantee {
     line-height: 1.9em;
     font-style: italic;
@@ -26,8 +32,12 @@ h2 {font-size: 130%;}
     line-height: 1;
     float: right;
 }
-#elixirs h2 { color: black;}
-#elixirs h3 {color: #d12c47;}
+#elixirs h2 { 
+    color: black;
+}
+#elixirs h3 {
+    color: #d12c47;
+}
 #footer {
     font-size: 50%;
     text-align: center;

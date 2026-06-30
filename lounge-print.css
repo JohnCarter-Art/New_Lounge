@@ -18,7 +18,7 @@ h2 {
   font-size: 130%;
 }
 
-#guarantee {
+#quarantee {
   padding: 25px 25px 25px 25px;
   border: thin solid black;
   margin-right: 240px;
@@ -33,7 +33,7 @@ h2 {
   font-family: Verdana, Helvetica, Arial, sans-serif; 
   width: 200px;
   background-color: #ffffff;
-  background: url("images/elixirbackground.gif") repeat-x top center;
+  background: url(images/cocktail.gif) repeat-x top center;
   padding: 0px 20px 20px 20px;
   margin-left: 25px;
   color: #000000;
